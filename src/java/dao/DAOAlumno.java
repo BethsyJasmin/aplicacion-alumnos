@@ -46,7 +46,7 @@ public class DAOAlumno {
 
         r = """
           <br><br>
-        <table borde="0">
+        <table border="0" class="tabla-contenido">
             <caption>Lista de alumnos<caption>
             <theard>
                 <tr>
@@ -73,14 +73,14 @@ public class DAOAlumno {
                         <form method='post'>
                             <input type='hidden' name='accion' value='Editar'/>
                             <input type='hidden' name='tfNL' value='%d'/>
-                            <input type='submit' value='Editar'>
+                            <input type='submit' value='Editar' class= "btn">
                         </form>
                     </td>
                     <td>
                         <form method='post'>
                             <input type='hidden' name='accion' value='Eliminar'/>
                             <input type='hidden' name='tfNL' value='%d'/>
-                            <input type='submit' value='Eliminar'/>
+                            <input type='submit' value='Eliminar' class= "btn"/>
                         </form>
                     </td>
             </tr>
